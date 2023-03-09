@@ -1,0 +1,177 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+/* title */
+#title
+{
+    background-image: url("images/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Rubik', sans-serif;
+   color: white;
+   margin-bottom:  100px;
+}
+h1{
+    font-family: 'Rubik-bold', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+ .navbar{
+    margin-bottom: 50px;
+ }  
+
+.logo{
+    width: 10%;
+    border-radius: 100%;   
+}
+.container-fluid{
+    padding: 3% 15% 5%;
+}
+.search{
+    margin: 7% 0;
+    text-align: center;
+}
+/* features */
+#feature{
+    
+}
+.feature-box{
+    text-align: center;
+    margin-left: 100px;
+    width: 40%;
+    margin-bottom: 60px;
+}
+.feature-box h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2E3840;
+}
+.feature-box p{
+    color: #4E6E81;
+}
+.feature-img{
+    width: 30%;
+    height: 80%;
+    float: left;
+  
+}
+#pricing{
+    background-image: url("images/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #635985;
+    padding: 7% 15%;
+    
+}
+.card-header h3{
+   font-weight: bold;
+
+}
+.free{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgb(26, 21, 13);
+}
+
+.login-text{
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+}
+/* rating */
+.checked {
+    color: orange;
+  }
+#rating{
+    text-align: center;
+    padding: 5% 20%;
+}
+#rating h2{
+    font-weight: bold;
+}
+#Rating-carousel{
+    margin-top: 7%;
+}
+.rating-image{
+    border-radius: 100%;
+    width: 8%;
+}
+.p1{
+    color: #4E6E81;
+}
+.p2{
+    margin: auto;
+    width: 60%;
+}
+footer{
+    background-image: url("images/beach.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}  
+footer h4{
+    font-weight: bold;
+}
+.fa{
+    padding: 1%;
+}
+
+@media  (max-width: 1000px){
+    #title{
+        background-color: #7286D3;
+        background-image: none;
+    }
+    .navbar-brand{
+        color: white;
+    }
+    .navbar-toggler{
+        background-color: rgb(194, 186, 186);
+    }
+    
+    }
+    h1 {
+        font-family: "Montserrat-black", sans-serif;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: bold;
+        color: white;
+        
+    }
+    .para{
+        color: white;
+    }
+    .nav{
+    color: white;
+    }
+    .feature-box{
+        text-align: center;
+        margin-left: 100px;
+        width: 70%;
+        margin-bottom: 60px;
+    }
+    .feature-img{
+        width: 35%;
+        height: 80%;
+        float: left;
+    }
+     #pricing{
+        background-color:  #7286D3;
+        background-image: none;
+}
+#pricing h2{
+    color: white;
+}
+.login-box
+{
+  margin-bottom: 40px;  
+}
+.card{
+    margin-bottom: 3%;
+}
+footer{
+    background-color:  #7286D3;
+        background-image: none;
+        color: white;
+}
+}
+
